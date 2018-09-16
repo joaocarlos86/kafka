@@ -44,7 +44,7 @@ You will need the GPB to run this application, you will need to set the location
 ```
 2) Start a new Zookeeper container
 ```bash
-	run --name zookeeper --network kafka -d wurstmeister/zookeeper
+	docker run --name zookeeper --network kafka -d wurstmeister/zookeeper
 ```
 3) Start a new Kafka container
 ```bash
@@ -58,5 +58,5 @@ You will need the GPB to run this application, you will need to set the location
 ```bash
 	mvn clean spring-boot:run
 ```
-	
+
 Magic.
