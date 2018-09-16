@@ -16,7 +16,7 @@ Protocol buffers are Google's language-neutral, platform-neutral, extensible mec
 
 ## Spring Boot (from https://spring.io/projects/spring-boot)
 
-## Spring Boot makes it easy to create Spring-powered, production-grade applications and services with absolute minimum fuss. 
+Spring Boot makes it easy to create Spring-powered, production-grade applications and services with absolute minimum fuss. 
 
 ## Spring Kafka (from https://spring.io/projects/spring-kafka)
 
