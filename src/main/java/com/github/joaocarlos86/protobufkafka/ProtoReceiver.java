@@ -6,7 +6,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
-import com.ericsson.kafka.model.AddressBookProtos.Person;
+import com.github.joaocarlos86.protobufkafka.model.AddressBookProtos.Person;
 import com.google.protobuf.InvalidProtocolBufferException;
 
 @Service
