@@ -26,9 +26,17 @@ The Spring for Apache Kafka (spring-kafka) project applies core Spring concepts 
 
 Kafka® is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies.
 
+## What this application does?
+
+The objective of this application is to use Google Protocol Buffers to create an optimized message, send it to a Kafka Broker and then read the message back.
+
+The application uses Spring Boot to provide the basic infrastructure of the application, Spring Kafka is used for providing  the foundations of message producers and consumers and Google Protocol Buffers is being used to generate a model of the message.
+
+The Kafka Broker is running into a Docker container (but this is not a requirement).
+
 ## How to run?
 
-The 
+You will need the GPB to run this application, you will need to set the location of the binary of GPB into the pom.xml file. The GPB will interpret the proto file and will generate the Java classes that are being referred into the project. You can download the binaries from https://github.com/protocolbuffers/protobuf/releases/tag/v3.6.1 (download the protoc-3.6.1 for you runtime).
 
 1) Create a new Docker network
 ```bash
