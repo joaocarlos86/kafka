@@ -5,8 +5,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.github.joaocarlos86.protobufkafka.model.AddressBookProtos;
-import com.github.joaocarlos86.protobufkafka.model.AddressBookProtos.Person;
+import com.github.protobufkafka.model.AddressBookProtos;
+import com.github.protobufkafka.model.AddressBookProtos.Person;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner {
