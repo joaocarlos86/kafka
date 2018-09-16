@@ -1,4 +1,4 @@
-# Google Protocol Buffer and Kafka Hello World
+# Google Protocol Buffers and Kafka Hello World
 
 This project shows how to use the Google Protocol Buffers to send messages to a Kafka Broker running inside a docker container.
 
@@ -27,6 +27,8 @@ The Spring for Apache Kafka (spring-kafka) project applies core Spring concepts 
 Kafka® is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies.
 
 ## How to run?
+
+The 
 
 1) Create a new Docker network
 ```bash
