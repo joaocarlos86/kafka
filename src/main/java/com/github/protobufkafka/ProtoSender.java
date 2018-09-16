@@ -1,4 +1,4 @@
-package com.github.joaocarlos86.protobufkafka;
+package com.github.protobufkafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

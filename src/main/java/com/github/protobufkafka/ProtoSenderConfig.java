@@ -1,4 +1,4 @@
-package com.github.joaocarlos86.protobufkafka;
+package com.github.protobufkafka;
 
 import java.util.HashMap;
 import java.util.Map;
