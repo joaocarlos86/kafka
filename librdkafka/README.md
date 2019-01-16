@@ -12,11 +12,11 @@ First, you will need the librdkafka, please refer to [librdkafka building](https
 
 After building and installing the librdkafka you can compile the code using:
 
-  g++ main.cpp -o main.o -lrdkafka++ -I/usr/local/include/librdkafka -lrdkafka -I/usr/local/include -lpthread -lz -lrt -fPIC
+  `g++ main.cpp -o main.o -lrdkafka++ -I/usr/local/include/librdkafka -lrdkafka -I/usr/local/include -lpthread -lz -lrt -fPIC`
 
 After compiling (make sure to have a Kafka broker running and you created the topic this_is_a_topic), create a console consumer to consume the message that the application will send:
 
-  ./kafka-console-consumer.sh --topic this_is_a_topic --bootstrap-server localhost:9092
+  `./kafka-console-consumer.sh --topic this_is_a_topic --bootstrap-server localhost:9092`
 
 Then, just execute the generated main.o file. The message should appear in the console consumer.
 
