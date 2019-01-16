@@ -22,8 +22,8 @@ Then, just execute the generated main.o file. The message should appear in the c
 
 ## How do I change the producer properties?
 
-See the producer.cpp file and use the (librdkafka configuration reference)[https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md]
+See the producer.cpp file and use the [librdkafka configuration reference](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md)
 
 ## But... why?
 
-By using the librdkafka to implement the Kafka Protocol and enabling C/C++ applications to produce and consume messages from a Kafka Cluster we are ensuring to enable direct connectivity between devices that can't run a JVM without the need to have a middle guy between the device and the message broker, this may have the potential to lower the implementation costs in projects and leverage the throughput and robustness of the solution. The librdkafka only provides an asynchronous producer, all the messages are first inserted into an internal buffer and then sent after some conditions are met (refer to (librdkafka configuration reference)[https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md]).
+By using the librdkafka to implement the Kafka Protocol and enabling C/C++ applications to produce and consume messages from a Kafka Cluster we are ensuring to enable direct connectivity between devices that can't run a JVM without the need to have a middle guy between the device and the message broker, this may have the potential to lower the implementation costs in projects and leverage the throughput and robustness of the solution. The librdkafka only provides an asynchronous producer, all the messages are first inserted into an internal buffer and then sent after some conditions are met (refer to [librdkafka configuration reference](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md)).
